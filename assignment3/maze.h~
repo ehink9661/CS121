@@ -1,0 +1,44 @@
+/* maze.h
+ *
+ * CS 121.Bolden.........g++ from CS server...........Ethan Hinkle
+ * Febuary 28, 2020.......Dell Inspiron Intel Core i5..hink9661@vandals.uidaho.edu
+ *
+ * This file contains the struct and the prototypes for our assignment #3, using a linked list queue to find our way through a maze
+ *---------------------------------------------------------------------
+ */
+
+#include <iostream>
+#include <fstream>
+#include <string>
+
+using namespace std;
+
+/* class of node to allow for there to be a string and a pointer used in the implementation of the linked list */
+class maze{
+ private:
+  struct node{
+    int column;
+    int row;
+    struct node* next; // pointer to the next value in a linked list
+  };
+  typedef struct node* NodePtr; // creates a node pointer called NodePtr
+  NodePtr start; // points to the begining of the queue
+  NodePtr end; // points to the end of the queue
+  int length;
+  int height;
+  char **pArr;
+ public:
+  maze();
+  void read(string);
+  void enqueue(int, int);
+  void dequeue();
+  void solve();
+  void print();
+  void clearArr();
+  int firstColumn();
+  int firstRow();
+  void adjacentAdd(int, int);
+  bool isEmpty();
+  bool exit(int, int);
+  void deleteAll();
+};

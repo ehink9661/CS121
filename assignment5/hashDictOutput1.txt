@@ -1,0 +1,45 @@
+Script started on Tue 05 May 2020 04:01:41 PM PDT
+[?1034hbash-4.2$ g++ hashDIct[K[K[Kict.cpp hashDictMain.cpp
+bash-4.2$ ./a.out
+Please input file: dict4.txt
+The hash table's size is 8017.
+The smallest bucket contains 0 items.
+The largest bucket contains 22 items.
+There are 3 empty buckets.
+Please input a valid table location to see how many entries are there: 3325
+There are 4 entries in bucket 3325.
+Input ten words to find in the table.
+Please type the word you would like to search : inclusionist
+inclusionist was found in the hash table.
+It took 7 probes to find it.
+Please type the word you would like to search : scrupula
+scrupula was found in the hash table.
+It took 1 probes to find it.
+Please type the word you would like to search : overincurious
+overincurious was found in the hash table.
+It took 3 probes to find it.
+Please type the word you would like to search : atonally
+atonally was found in the hash table.
+It took 12 probes to find it.
+Please type the word you would like to search : kitchenward
+kitchenward was found in the hash table.
+It took 4 probes to find it.
+Please type the word you would like to search : negativity
+negativity was found in the hash table.
+It took 3 probes to find it.
+Please type the word you would like to search : subtorrid
+subtorrid was found in the hash table.
+It took 2 probes to find it.
+Please type the word you would like to search : zygosporangium
+zygosporangium was found in the hash table.
+It took 1 probes to find it.
+Please type the word you would like to search : supinate
+supinate was found in the hash table.
+It took 3 probes to find it.
+Please type the word you would like to search : onicolo
+onicolo was found in the hash table.
+It took 3 probes to find it.
+bash-4.2$ exit
+exit
+
+Script done on Tue 05 May 2020 04:05:13 PM PDT

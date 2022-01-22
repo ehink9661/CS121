@@ -1,0 +1,16 @@
+#include <iostream>
+#include <iomanip>
+#include <cstdlib>
+#include <cstring>
+#include <fstream>
+#include "hashDict.h"
+
+using namespace std;
+
+int main(){
+  string file = "dict8.txt";
+  buildTable(file);
+  printTable();
+  menu();
+  return 0;
+}

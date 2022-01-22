@@ -1,0 +1,164 @@
+Script started on Thu 13 Feb 2020 07:42:03 PM PST
+[?1034hbash-4.2$ g++ mainAnimalList.cpp animalList.cpp
+bash-4.2$ ./a.out
+Hello. 
+What file would you like me to read?
+animals1.txt
+Added aardvark
+Added bird
+Added cat
+Added dog
+Added hamster
+Added cat
+Added rabbit
+Added zebra
+----------
+zebra rabbit cat hamster dog cat bird aardvark 
+----------
+zebra: 1
+rabbit: 1
+cat: 2
+hamster: 1
+dog: 1
+cat: 2
+bird: 1
+aardvark: 1
+----------
+Deleted zebra
+Added dog
+Added hamster
+Deleted rabbit
+Deleted dog
+Deleted cat
+----------
+hamster hamster dog cat bird aardvark 
+----------
+hamster: 2
+hamster: 2
+dog: 1
+cat: 1
+bird: 1
+aardvark: 1
+----------
+Deleted bird
+Can not delete bird because it is not contained in the list
+Deleted aardvark
+Added hamster
+----------
+hamster hamster hamster dog cat 
+----------
+hamster: 3
+hamster: 3
+hamster: 3
+dog: 1
+cat: 1
+----------
+Do you wish to read another file? Yes(1), No(0)
+1
+Deleted hamster
+Deleted hamster
+Deleted hamster
+Deleted dog
+Deleted cat
+What file would you like me to read?
+animals2.txt
+Added zebra
+Added lizard
+Added cat
+Added dog
+Added hamster
+Added bird
+Added frog
+Added snake
+Added rabbit
+Added horse
+Added dolphin
+Added dolphin
+----------
+dolphin dolphin horse rabbit snake frog bird hamster dog cat lizard zebra 
+----------
+dolphin: 2
+dolphin: 2
+horse: 1
+rabbit: 1
+snake: 1
+frog: 1
+bird: 1
+hamster: 1
+dog: 1
+cat: 1
+lizard: 1
+zebra: 1
+----------
+Deleted rabbit
+Added hamster
+Deleted dog
+Deleted lizard
+----------
+hamster dolphin dolphin horse snake frog bird hamster cat zebra 
+----------
+hamster: 2
+dolphin: 2
+dolphin: 2
+horse: 1
+snake: 1
+frog: 1
+bird: 1
+hamster: 2
+cat: 1
+zebra: 1
+----------
+Added zebra
+Added mouse
+Can not delete dog because it is not contained in the list
+Deleted bird
+----------
+mouse zebra hamster dolphin dolphin horse snake frog hamster cat zebra 
+----------
+mouse: 1
+zebra: 2
+hamster: 2
+dolphin: 2
+dolphin: 2
+horse: 1
+snake: 1
+frog: 1
+hamster: 2
+cat: 1
+zebra: 2
+----------
+Added cat
+Can not delete rabbit because it is not contained in the list
+Deleted snake
+Deleted horse
+----------
+cat mouse zebra hamster dolphin dolphin frog hamster cat zebra 
+----------
+cat: 2
+mouse: 1
+zebra: 2
+hamster: 2
+dolphin: 2
+dolphin: 2
+frog: 1
+hamster: 2
+cat: 2
+zebra: 2
+----------
+Do you wish to read another file? Yes(1), No(0)
+0
+Deleted cat
+Deleted mouse
+Deleted zebra
+Deleted hamster
+Deleted dolphin
+Deleted dolphin
+Deleted frog
+Deleted hamster
+Deleted cat
+Deleted zebra
+Goodbye!
+bash-4.2$ exit
+exit
+
+Script done on Thu 13 Feb 2020 07:43:12 PM PST

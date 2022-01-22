@@ -1,0 +1,53 @@
+/* TVTree
+ *
+ * CS 121-01.Bolden....g++ from CS server...........Ethan Hinkle
+ * April 9, 2020....Dell Inspiron Intel Core i5 ..hink9661@vandals.uidaho.edu
+ *
+ *
+ *--------------------------------------------------------------------
+ */
+
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <cstring>
+#include <cstdlib>
+
+using namespace std;
+
+/* class of node to allow for there to be a string and a pointer used in the implementation of the linked list */
+class TVBST{
+ private:
+  struct Node{
+    string actor; /* string for the animal stored in the node */
+    struct Node* next; /* pointer to the next value in a linked list */
+  };
+  typedef struct Node* NodePtr; /* creates a node pointer called NodePtr */
+
+  struct  BSTreeNode{
+    string title;
+    int start;
+    int end;
+    string genre;
+    NodePtr list;
+    struct BSTreeNode* leftPtr;
+    struct BSTreeNode* rightPtr;
+  };
+  typedef struct BSTreeNode* BSTreePtr;
+  BSTreePtr rootPtr = NULL;/* root of the BST */
+ public:
+  TVBST();
+  void addActor(string, NodePtr&);
+  void addData(BSTreePtr&, string);
+  void printList(NodePtr);
+  void printAll(BSTreePtr);
+  void searchShow();
+  void checkTitle(BSTreePtr, string);
+  void searchActor();
+  bool searchList(NodePtr, string);
+  void checkActor(BSTreePtr, string);
+  void searchDate();
+  void checkDate(BSTreePtr, int);
+  void buildGuide(string);
+  void searchMenu();
+};

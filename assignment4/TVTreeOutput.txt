@@ -1,0 +1,139 @@
+Script started on Sat 18 Apr 2020 09:49:49 PM PDT
+bash-4.2$ g++ TVTree.cpp TVTreeMain.cpp
+bash-4.2$ ./a.out 
+Hello, and welcome to your TV Guide.
+Options:
+See All Available Shows (1)
+Search Shows Cast (2)
+Search Actor's Shows (3)
+Search Decade of Release (4)
+Exit the Guide (5)
+1
+|3rd Rock from the Sun|Alfred Hitchcock Presents|All in the Family|American Dad!|Animaniacs|Babylon 5|Babylon 5|Banacek|Batman|Battlestar Galactica|Benson|Bewitched|Burke's Law|CHiPs|Charlie's Angels|Chicago Hope|Coach|Criminal Minds|Dexter's Laboratory|ER|Evening Shade|F Troop|Family Ties|Futurama|Gidget|Gilligan's Island|Gomer Pyle: USMC|Happy Days|Hawaii Five-0|Herman's Head|Hogan's Heroes|I Dream of Jeannie|I Love Lucy|Ironside|JAG|Jake and the Fatman|Kojak|Kung Fu: The Legend Continues|Lassie|Law & Order|Leave It to Beaver|Little House on the Prairie|Lost|Lost in Space|M*A*S*H|MacGyver|MacGyver|Make Room for Daddy|Mannix|Married with Children|Mary Tyler Moore|Matlock|McCloud|McHale's Navy|Mister Ed|Mod Squad|Mork & Mindy|Mr. Lucky|Murder, She Wrote|My Three Sons|NCIS|Newhart|Night Court|Northern Exposure|Quantum Leap|Rawhide|Riptide|Room 222|Scarecrow and Mrs. King|Seinfeld|St. Elsewhere|Star Trek|Star Trek: Deep Space Nine|Star Trek: The Next Generation|Star Trek: Voyager|Taxi|The A-Team|The Adventures of Ozzie & Harriet|The Andy Griffith Show|The Beverly Hillbillies|The Big Valley|The Bob Newhart Show|The Bullwinkle Show|The Carol Burnett Show|The Cosby Show|The Fall Guy|The Flying Nun|The Fugitive|The Honeymooners|The Invaders|The Jack Benny Program|The Jeffersons|The Lucy Show|The Man from U.N.C.L.E.|The Many Loves of Dobie Gillis|The Odd Couple|The Office|The Phil Silvers Show|The Prisoner|The Saint|The Simpsons|The Six Million Dollar Man|The Streets of San Francisco|The Twilight Zone|The Wild Wild West|The X-Files|Topper|Voyage to the Bottom of the Sea|WKRP in Cincinnati|Walker, Texas Ranger|Wonder Woman|
+Options:
+See All Available Shows (1)
+Search Shows Cast (2)
+Search Actor's Shows (3)
+Search Decade of Release (4)
+Exit the Guide (5)
+2
+Please Input a Show to See its Cast: The Saint
+The Saint Cast: |Justine Lord|Leslie Crawford|Ivor Dean|Roger Moore|
+Options:
+See All Available Shows (1)
+Search Shows Cast (2)
+Search Actor's Shows (3)
+Search Decade of Release (4)
+Exit the Guide (5)
+2
+Please Input a Show to See its Cast: Benson
+Benson Cast: |Didi Conn|Ethan Phillips|Rene Auberjonois|Missy Gold|Inga Swenson|James Noble|Robert Guillaume|
+Options:
+See All Available Shows (1)
+Search Shows Cast (2)
+Search Actor's Shows (3)
+Search Decade of Release (4)
+Exit the Guide (5)
+2
+Please Input a Show to See its Cast: Dexters's Laboratory
+Dexter's Laboratory Cast: |Rob Paulsen|Kathryn Cressida|Allison Moore|Tom Kenny|Frank Welker|Christine Cavanaugh|Jeff Bennett|Kath Soucie|
+Options:
+See All Available Shows (1)
+Search Shows Cast (2)
+Search Actor's Shows (3)
+Search Decade of Release (4)
+Exit the Guide (5)
+2
+Please Input a Show to See its Cast: Wonder Woman
+Wonder Woman Cast: |Beatrice Colen|Richard Eastham|Tom Kratochvil|Lyle Waggoner|Lynda Carter|
+Options:
+See All Available Shows (1)
+Search Shows Cast (2)
+Search Actor's Shows (3)
+Search Decade of Release (4)
+Exit the Guide (5)
+2
+Please Input a Show to See its Cast: The A-Team
+The A-Team Cast: |Melinda Culea|Dirk Benedict|Mr. T|Dwight Schultz|George Peppard|
+Options:
+See All Available Shows (1)
+Search Shows Cast (2)
+Search Actor's Shows (3)
+Search Decade of Release (4)
+Exit the Guide (5)
+3
+Please Input an Actor to See Their Shows: Tim Conway
+Tim Conway's Shows: |McHale's Navy|The Carol Burnett Show|
+Options:
+See All Available Shows (1)
+Search Shows Cast (2)
+Search Actor's Shows (3)
+Search Decade of Release (4)
+Exit the Guide (5)
+3
+Please Input an Actor to See Their Shows: Clint Eastwood
+Clint Eastwood's Shows: |Rawhide|
+Options:
+See All Available Shows (1)
+Search Shows Cast (2)
+Search Actor's Shows (3)
+Search Decade of Release (4)
+Exit the Guide (5)
+3
+Please Input an Actor to See Their Shows: Marilu Henner
+Marilu Henner's Shows: |Evening Shade|Taxi|
+Options:
+See All Available Shows (1)
+Search Shows Cast (2)
+Search Actor's Shows (3)
+Search Decade of Release (4)
+Exit the Guide (5)
+3
+Please Input an Actor to See Their Shows: Tress MacNeille
+Tress MacNeille's Shows: |Animaniacs|Futurama|The Simpsons|
+Options:
+See All Available Shows (1)
+Search Shows Cast (2)
+Search Actor's Shows (3)
+Search Decade of Release (4)
+Exit the Guide (5)
+3
+Please Input an Actor to See Their Shows: Dirk Benedict
+Dirk Benedict's Shows: |Battlestar Galactica|The A-Team|
+Options:
+See All Available Shows (1)
+Search Shows Cast (2)
+Search Actor's Shows (3)
+Search Decade of Release (4)
+Exit the Guide (5)
+3
+Please Input an Actor to See Their Shows: Mr. T
+Mr. T's Shows: |The A-Team|
+Options:
+See All Available Shows (1)
+Search Shows Cast (2)
+Search Actor's Shows (3)
+Search Decade of Release (4)
+Exit the Guide (5)
+4
+Please Input the First Year of the Search Decade: 1983
+Shows released in the decade following 1983: |Coach|Evening Shade|Herman's Head|Jake and the Fatman|Law & Order|MacGyver|MacGyver|Married with Children|Matlock|Murder, She Wrote|Night Court|Northern Exposure|Quantum Leap|Riptide|Scarecrow and Mrs. King|Seinfeld|Star Trek: The Next Generation|The A-Team|The Cosby Show|The Simpsons|
+Options:
+See All Available Shows (1)
+Search Shows Cast (2)
+Search Actor's Shows (3)
+Search Decade of Release (4)
+Exit the Guide (5)
+4
+Please Input the First Year of the Search Decade: 1975
+Shows released in the decade following 1975: |Battlestar Galactica|Benson|CHiPs|Charlie's Angels|Family Ties|Mork & Mindy|Murder, She Wrote|Newhart|Night Court|Riptide|Scarecrow and Mrs. King|St. Elsewhere|Taxi|The A-Team|The Cosby Show|The Fall Guy|The Jeffersons|WKRP in Cincinnati|Wonder Woman|
+Options:
+See All Available Shows (1)
+Search Shows Cast (2)
+Search Actor's Shows (3)
+Search Decade of Release (4)
+Exit the Guide (5)
+5
+Goodbye!
+bash-4.2$ exit
+exit

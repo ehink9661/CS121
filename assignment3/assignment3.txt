@@ -1,0 +1,52 @@
+Script started on Sun 08 Mar 2020 07:33:19 PM PDT
+[?1034hbash-4.2$ g++ maze.cpp mazeMain.cpp
+bash-4.2$ ./a.out 
+Hello! Are you ready to solve some mazes? Great!
+First here are some exaxmple mazes.
+Here is a simple maze that can be solved
+|S..##|
+|....#|
+|###.#|
+|#....|
+|G..##|
+The maze you inputed was solvable.
+Here is that maze solved.
+|S!!##|
+|!!!!#|
+|###!#|
+|#!!!!|
+|G!!##|
+Now here is a maze that can not be solved.
+|S..##|
+|.....|
+|#####|
+|.....|
+|....G|
+The maze you inputed is unfortunately unsolvable.
+Here is that maze after the program has determined that the maze is unsolvable.
+|S!!##|
+|!!!!!|
+|#####|
+|.....|
+|....G|
+Now you try. Please note we will not print these mazes to save space.
+Please input your maze file.
+maze1.txt
+The maze you inputed is unfortunately unsolvable.
+Do you wish to solve another maze? Yes(1) No(0)
+1
+Please input your maze file.
+maze3.txt
+The maze you inputed was solvable.
+Do you wish to solve another maze? Yes(1) No(0)
+1
+Please input your maze file.
+maze2.txt
+The maze you inputed was solvable.
+Do you wish to solve another maze? Yes(1) No(0)
+0
+Goodbye!
+bash-4.2$ exit
+exit
+
+Script done on Sun 08 Mar 2020 07:34:27 PM PDT

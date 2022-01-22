@@ -1,0 +1,45 @@
+Script started on Tue 05 May 2020 04:22:51 PM PDT
+[?1034hbash-4.2$ g++ hashDict.cpp hashDictMain.cpp
+bash-4.2$ ./a.out
+Please input file: dict8.txt
+The hash table's size is 49957.
+The smallest bucket contains 0 items.
+The largest bucket contains 6 items.
+There are 27907 empty buckets.
+Please input a valid table location to see how many entries are there: 12
+There are 2 entries in bucket 12.
+Input ten words to find in the table.
+Please type the word you would like to search : shoal
+shoal was found in the hash table.
+It took 1 probes to find it.
+Please type the word you would like to search : Meleagris
+Meleagris was found in the hash table.
+It took 1 probes to find it.
+Please type the word you would like to search : mellification
+mellification was found in the hash table.
+It took 1 probes to find it.
+Please type the word you would like to search : Islamite
+Islamite was found in the hash table.
+It took 1 probes to find it.
+Please type the word you would like to search : helminthological
+helminthological was found in the hash table.
+It took 1 probes to find it.
+Please type the word you would like to search : Tuamotu
+Tuamotu was found in the hash table.
+It took 1 probes to find it.
+Please type the word you would like to search : lactothermometer
+lactothermometer was found in the hash table.
+It took 2 probes to find it.
+Please type the word you would like to search : Echinocactus
+Echinocactus was found in the hash table.
+It took 1 probes to find it.
+Please type the word you would like to search : circumlocutory
+circumlocutory was found in the hash table.
+It took 1 probes to find it.
+Please type the word you would like to search : abditive
+abditive was found in the hash table.
+It took 2 probes to find it.
+bash-4.2$ exit
+exit
+
+Script done on Tue 05 May 2020 04:26:17 PM PDT

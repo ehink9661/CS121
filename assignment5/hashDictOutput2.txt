@@ -1,0 +1,47 @@
+Script started on Tue 05 May 2020 04:13:49 PM PDT
+[?1034hbash-4.2$ g++ hashDict.cpp hashDictMain.cpp
+bash-4.2$ ./a.out
+Please input file: dict8.txt
+The hash table's size is 11037.
+The smallest bucket contains 0 items.
+The largest bucket contains 11 items.
+There are 778 empty buckets.
+Please input a valid table location to see how many entries are there: 22222
+Error. Value must be between 11036 and 0.
+Please input a valid table location to see how many entries are there: 10000
+There are 2 entries in bucket 10000.
+Input ten words to find in the table.
+Please type the word you would like to search : Abitibi
+Abitibi was found in the hash table.
+It took 4 probes to find it.
+Please type the word you would like to search : Brahma
+Brahma was found in the hash table.
+It took 3 probes to find it.
+Please type the word you would like to search : contrive
+contrive was found in the hash table.
+It took 5 probes to find it.
+Please type the word you would like to search : discreetly
+discreetly was found in the hash table.
+It took 4 probes to find it.
+Please type the word you would like to search : hydrophilite
+hydrophilite was found in the hash table.
+It took 1 probes to find it.
+Please type the word you would like to search : Neudeckian
+Neudeckian was found in the hash table.
+It took 1 probes to find it.
+Please type the word you would like to search : otherwards
+otherwards was found in the hash table.
+It took 3 probes to find it.
+Please type the word you would like to search : persulphocyanic
+persulphocyanic was found in the hash table.
+It took 2 probes to find it.
+Please type the word you would like to search : rename
+rename was found in the hash table.
+It took 3 probes to find it.
+Please type the word you would like to search : shortbread
+shortbread was found in the hash table.
+It took 4 probes to find it.
+bash-4.2$ exit
+exit
+
+Script done on Tue 05 May 2020 04:16:31 PM PDT
